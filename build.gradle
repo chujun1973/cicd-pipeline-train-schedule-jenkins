@@ -1,7 +1,8 @@
+
 plugins {
-  //inlude the nodeJS plugin to execute nodejs and npm tasks
-  id "gradle-node-plugin" version "1.4.0"
+  id "com.github.node-gradle.node" version "7.0.2"
 }
+
 
 node {
 	download = true
